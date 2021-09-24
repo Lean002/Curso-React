@@ -1,0 +1,71 @@
+
+
+{
+    "Characters": [
+        {   
+            "name": "Zero Two",
+            "age": "18",
+            "code": "002",
+            "Gender": "Female",
+            "Height": "170cm",
+            "Weight": "60kg",
+            "Alias": "Partner Killer, Iota",
+            "Birthday": "February 27",
+            "photo": "http://pm1.narvii.com/7691/40779597e02f8e9868642a62f9b800c0739314f6r1-570-768v2_uhq.jpg",
+            "Franxx": "Strelitzia",
+            "Friends": ["Hiro","Ichigo","Goro"]
+        },
+        {   
+            "name": "Hiro",
+            "age": "15",
+            "code": "016",
+            "Gender": "Male",
+            "Height": "168cm",
+            "Weight": "58kg",
+            "Alias": "Darling",
+            "Birthday": "October 15",
+            "photo": "https://cdn.myanimelist.net/images/characters/12/358246.jpg",
+            "Franxx": "Strelitzia",
+            "Friends": ["Zero Two","Ichigo","Goro"]
+        },
+        {   
+            "name": "Ichigo",
+            "age": "14",
+            "code": "015",
+            "Gender": "Female",
+            "Height": "152cm",
+            "Weight": "54kg",
+            "Alias": "-",
+            "Birthday": "November 8",
+            "photo": "https://wallpaperaccess.com/full/3530848.png",
+            "Franxx": "Delphinium",
+            "Friends": ["Hiro","Zero Two","Goro",""]
+        },
+        {   
+            "name": "Goro",
+            "age": "15",
+            "code": "056",
+            "Gender": "Male",
+            "Height": "178cm",
+            "Weight": "65kg",
+            "Alias": "Chad",
+            "Birthday": "June 14",
+            "photo": "https://coleccionistademomentos.com/images/characters/goro-darling-in-the-frankxx-136354.jpg",
+            "Franxx": "Delphinium",
+            "Friends": ["Hiro","Ichigo","Goro",""]
+        },
+        {   
+            "name": "Princess Klaxosaurs",
+            "age": "Over 60 million years",
+            "code": "001",
+            "Gender": "Female",
+            "Height": "145cm (no tail included)",
+            "Weight": "60kg",
+            "Alias": "Kyoryuu no Hime",
+            "Birthday": "Unknown",
+            "photo": "https://wallpapercave.com/wp/wp5321524.jpg",
+            "Franxx": "Klaxosaurs",
+            "Friends": ["Humanity"]
+        }
+    ]
+}
