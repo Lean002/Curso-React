@@ -3,10 +3,10 @@ import React from "react";
 export default class About extends React.Component{
     render(){
         return(
-            <>
-            <h1>Informacion:</h1>
-            <div>Nombre y Apellido: Leandro Carello , Estudiante de Programacion y futuro programador xd</div>
-            </>
+            <div className="about">
+            <h4>Creado por:</h4>
+            <div>Leandro Carello, estudiante de programacion y futuro programador xd</div>
+            </div>
         )
     }
 }

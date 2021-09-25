@@ -3,18 +3,10 @@ import React, { Component } from "react"
 export default class NavBar extends React.Component{
     render(){
         return(
-            <header>
-                <h1>Darling Aplication</h1>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Character Detail</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                    </ul>
-                </nav>
+            <header className="header">
+                <h4>Anime: Darling in the Franxx</h4>
+                <a href="#">Character Detail</a>                        
+                <a href="#">About</a>
             </header>
         )
     }

@@ -5,15 +5,16 @@ import Selector from './components/Home/selector';
 import About from './components/Home/about';
 import './App.css';
 import './components/estilos.css'
+import CharacterDetail from './components/CharacterDetail/characterDetail';
 
 function App() {
   return (
-    <>
-    <NavBar/>
-    <Home/>    
-    <Selector/>
-    <About/>
-    </>
+    <div className="App">
+      <NavBar/>
+      <Home/>    
+      <CharacterDetail/>
+      <About/>
+    </div>
   );
 }
 
