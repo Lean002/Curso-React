@@ -1,20 +1,26 @@
 import React from "react";
+import { NavLink } from "react-router-dom"
 import Card from "./card";
-import Data from "../../data/data.json"
+import Data from '../../data/data.json'
 
 export default class Home extends React.Component{
-    constructor(){
+    constructor(props){
         super()
+        this.state = {
+            pj : Data.Characters
+        };
     }
 
     render(){
         return (
             <div className='container'>
-            {Data.Characters.map((element) => (
+            {this.state.pj.map((element) => (
+            <NavLink to={`/charDetail/${element.code}`}>
                 <Card
                     name={element.name + " " + element.code}
                     url={element.photo}
                 />
+            </NavLink>                
             ))}                
             </div>
         )

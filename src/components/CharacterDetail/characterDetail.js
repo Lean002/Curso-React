@@ -1,44 +1,41 @@
 import React from "react";
 import Data from "../../data/data.json"
+import {useState, useEffect} from 'react';
+import { render } from "@testing-library/react";
 
-export default class CharacterDetail extends React.Component{
-    constructor(props){
-        super()
-        this.state = {
-            pj : Data.Characters[0]
-        };
-    }
+export default function CharacterDetail(props){
 
-    change(event){
+    const [CharacterDetailInfo, setCharacterDetailInfo] = useState([]); //Hook
+
+    useEffect(() => {
+        setCharacterDetailInfo(Data.Characters)
+    });
+
+    const [CharacterSelected, setCharacterSelected] = useState(Data.Characters[0]); //Hook
+
+    const change = (event) =>{
         //console.log(event.target.value)
-        Data.Characters.map((element)=> {
-            if(element.name===event.target.value){
-                console.log(element.name)
-                this.setState(()=>{
-                    return {pj: element}
-                })
-            }
-        })
+        setCharacterSelected(CharacterDetailInfo.find((element) => {
+            return element.name === event.target.value;
+        }))
     }
-//con el onChange capturo el evento y con el change me muestra como texto lo que estoy recibiendo
-    render(){
+//con el onChange capturo el evento y con el change me muestra como texto lo que estoy recibiendo    
         return(
             <div className="characterContainer">
-                <select className="sel" onChange={(event)=>{this.change(event)}}> 
+                <select className="sel" onChange={(event)=>{change(event)}}> 
                     {Data.Characters.map((element) =>(
                         <option value={element.name}>{element.name}</option>
                     ))}
                 </select>
-                <h3>{`Nombre: ${this.state.pj.name}`}</h3>
-                <img className='imgCard' src={this.state.pj.photo}></img>
-                    <div>{`Codigo: ${this.state.pj.code}`}</div>
-                    <div>{`Edad: ${this.state.pj.age}`}</div>                
-                    <div>{`Genero: ${this.state.pj.Gender}`}</div>
-                    <div>{`Altura: ${this.state.pj.Height}`}</div>
-                    <div>{`Peso: ${this.state.pj.Weight}`}</div>
-                    <div>{`Alias: ${this.state.pj.Alias}`}</div>
-                    <div>{`Franxx: ${this.state.pj.Franxx}`}</div>
+                <h3>{`Nombre: ${CharacterSelected.name}`}</h3>
+                <img className='imgCard' src={CharacterSelected.photo}></img>
+                    <div>{`Codigo: ${CharacterSelected.code}`}</div>
+                    <div>{`Edad: ${CharacterSelected.age}`}</div>                
+                    <div>{`Genero: ${CharacterSelected.Gender}`}</div>
+                    <div>{`Altura: ${CharacterSelected.Height}`}</div>
+                    <div>{`Peso: ${CharacterSelected.Weight}`}</div>
+                    <div>{`Alias: ${CharacterSelected.Alias}`}</div>
+                    <div>{`Franxx: ${CharacterSelected.Franxx}`}</div>
             </div>
         )
     }
-}

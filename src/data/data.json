@@ -49,6 +49,66 @@
             "Franxx": "Delphinium"
         },
         {   
+            "name": "Zorome",
+            "age": "15",
+            "code": "666",
+            "Gender": "Masculino",
+            "Height": "161cm",
+            "Weight": "48kg",
+            "Alias": "-",
+            "Birthday": "Dicember 3",
+            "photo": "https://cdn.anisearch.com/images/character/cover/full/68/68728.webp",
+            "Franxx": "Argentea"
+        },
+        {   
+            "name": "Kokoro",
+            "age": "15",
+            "code": "556",
+            "Gender": "Femenino",
+            "Height": "160cm",
+            "Weight": "52kg",
+            "Alias": "-",
+            "Birthday": "June 6",
+            "photo": "https://i.pinimg.com/originals/a2/54/27/a2542769029b52ab288b4b6fad8e5df9.png",
+            "Franxx": "Delphinium"
+        },
+        {   
+            "name": "Futoshi",
+            "age": "15",
+            "code": "214",
+            "Gender": "Masculino",
+            "Height": "177cm",
+            "Weight": "82kg",
+            "Alias": "FatBoy",
+            "Birthday": "May 15",
+            "photo": "https://img.wattpad.com/cover/237050872-288-k532111.jpg",
+            "Franxx": "Chlorophytum"
+        },
+        {   
+            "name": "Miku",
+            "age": "14",
+            "code": "390",
+            "Gender": "Femenino",
+            "Height": "160cm",
+            "Weight": "52kg",
+            "Alias": "Chad",
+            "Birthday": "June 14",
+            "photo": "https://64.media.tumblr.com/10258f7d768df2d42741e3911bcf5900/tumblr_pce54zT5O51wceprro2_250.png",
+            "Franxx": "Argentea"
+        },
+        {   
+            "name": "Mitsuru",
+            "age": "14",
+            "code": "326",
+            "Gender": "Masculino",
+            "Height": "165cm",
+            "Weight": "52kg",
+            "Alias": "-",
+            "Birthday": "June 14",
+            "photo": "https://pbs.twimg.com/media/EaaX3IuXYAACHRI.jpg",
+            "Franxx": "Genista Chlorophytum"
+        },
+        {   
             "name": "Princess Klaxosaurs",
             "age": "Over 60 million years",
             "code": "001",
