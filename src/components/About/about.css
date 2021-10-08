@@ -1,0 +1,31 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+
+.about div{
+    margin: 10px 20px;
+}
+
+.contact{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.margen{
+    margin: 10px;
+}
+
+.superMargen{
+    width: 50%;
+    border: 5px solid coral;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}

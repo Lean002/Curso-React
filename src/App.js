@@ -1,8 +1,7 @@
 import NavBar from './components/NavBar/navbar';
 import Home from './components/Home/home';
-import About from './components/Home/about';
+import About from './components/About/about';
 import './App.css';
-import './components/estilos.css'
 import React, {useState, useEffect} from 'react';
 import Data from './data/data.json'
 import {Switch,Route} from 'react-router-dom';
@@ -30,11 +29,11 @@ function App() {
         </Route>
         <Route path='/charDetail' exact>
           <CharacterDetail charInfo={CharacterInfo}/>
-        </Route>
+        </Route>        
         <Route path='/about' exact>
           <About/>
         </Route>
-      </Switch>      
+      </Switch>
     </div>
   );
 }

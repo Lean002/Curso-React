@@ -1,5 +1,10 @@
+*{
+  font-family: sans-serif;    
+}
+
 .App {
   text-align: center;
+  background-color: palevioletred;
 }
 
 .App-logo {

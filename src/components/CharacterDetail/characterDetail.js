@@ -1,7 +1,7 @@
 import React from "react";
 import Data from "../../data/data.json"
 import {useState, useEffect} from 'react';
-import { render } from "@testing-library/react";
+import '../CharacterDetail/characterDetail.css'
 
 export default function CharacterDetail(props){
 

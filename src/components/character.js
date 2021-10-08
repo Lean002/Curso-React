@@ -1,7 +1,6 @@
 import { useParams } from "react-router";
-import Card from "./Home/card";
+import Card from "./Cards/card";
 import Data from '../data/data.json'
-import CharacterDetail from "./CharacterDetail/characterDetail";
 
 export default function Character(){
 

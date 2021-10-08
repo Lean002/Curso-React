@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
-import Card from "./card";
+import Card from "../Cards/card";
 import Data from '../../data/data.json'
+import './home.css'
 
 export default class Home extends React.Component{
     constructor(props){

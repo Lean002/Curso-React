@@ -1,0 +1,39 @@
+.container{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid coral;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;    
+    justify-content: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.character{    
+    padding: 20px;
+    margin: 20px;
+    background-color: goldenrod;
+    border: thick double coral;
+    border-radius: 50px;
+}
+
+.img{
+    max-width: 200px;
+    max-height: 200px;
+    border: 5px solid coral;
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+
+.header a{
+    margin: 10px 20px
+}

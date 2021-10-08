@@ -1,0 +1,33 @@
+.characterContainer{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid coral;
+    border-radius: 50px;
+    background-color: pink;
+    flex-direction: column;        
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.characterContainer div{
+    padding: 10px;    
+    margin: 10px;
+}
+
+select{    
+    border: 5px solid coral;
+    border-radius: 2px;
+    color: #555;
+    font-size: inherit;
+  
+}
+
+.imgCard{
+    max-width: 200px;
+    max-height: 200px;
+    border: 20px;
+    border-style: inset;
+}
